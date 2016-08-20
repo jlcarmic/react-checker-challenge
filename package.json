@@ -1,0 +1,38 @@
+{
+  "name": "react-checker-challenge",
+  "version": "1.0.0",
+  "description": "A coding challenge in React and Electron.",
+  "main": "main.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel/register 'test/*.jsx'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jlcarmic/react-checker-challenge.git"
+  },
+  "author": "John Carmichael",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jlcarmic/react-checker-challenge/issues"
+  },
+  "dependencies": {
+    "babel": "^5.3.3",
+    "electron-prebuilt": "^0.26.0",
+    "react": "^15.3.1",
+    "react-bootstrap": "^0.30.2",
+    "react-dom": "^15.3.0",
+    "react-redux": "^4.4.5",
+    "redux": "^3.5.2",
+    "render-if": "^0.1.1",
+    "underscore": "^1.8.3",
+    "win-spawn": "^2.0.0"
+  },
+  "devDependencies": {
+    "expect": "^1.20.2",
+    "expect-jsx": "^2.6.0",
+    "expect-react-shallow": "^1.2.1",
+    "mocha": "^3.0.2",
+    "react-addons-test-utils": "^15.3.1",
+    "sinon": "^1.17.5"
+  }
+}

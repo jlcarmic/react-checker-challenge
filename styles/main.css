@@ -1,0 +1,39 @@
+.square {
+  border: 1px solid #777777;
+  float: left;
+  position: relative;
+}
+
+.checker {
+  position: absolute;
+  z-index: 1;
+  height: 45px;
+  width: 45px;
+}
+
+.arrow {
+  height: 45px;
+  margin: 15px;
+  width: 45px;
+}
+
+.RIGHT {
+  transform: rotate(90deg);
+}
+
+.DOWN {
+  transform: rotate(180deg);
+}
+
+.LEFT {
+  transform: rotate(270deg);
+}
+
+.inline-form {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.squares-input {
+  width: 50px;
+}
